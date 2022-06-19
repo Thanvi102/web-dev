@@ -1,0 +1,37 @@
+<html>
+<head>
+ <title>HOME</title>
+</head>
+<body>
+  <!--Nav bar-->
+  <center><h1><a href="home.html" target="_blanck">HOME</a>|
+	<a href="register.html">REGISTER/LOGIN</a>|
+	<a href="contact.html">CONTACT</a></h1></center>
+	<!--forms-->
+	<fieldset>
+	<legend>Personal Details:</legend>
+	<label for="sal">Salutation</label><br><br>
+	 <select id="sal_1" name="sal_1">
+	   <option>--None--</option>
+	   <option>Mr</option>
+	   <option>Mrs</option>
+	   <option>Miss</option></select><br><br>
+	 <label>First Name</label>
+	 <input type="text" id="f_name" name="f_name" placeholder="First Name" /><br><br>
+	 <label>Last Name</label>
+	 <input type="text" id="l_name" name="l_name" placeholder="Last Name" /><br><br>
+	 <label>Email</label>
+	 <input type="email" id="ema" name="ema" placeholder="Enter Email" /><br><br>
+	 <label>DOB</label>
+	 <input type="date" id="d_ob" name="d_ob" /><br><br>
+	  <label>Ph no.</label>
+	 <input type="tel" id="phno" name="phno" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" /><br><br>
+	 <label>Password</label>
+	 <input type="password" id="password1" name="password1" placeholder="Enter Password" /><br><br>
+	 <label>Gender</label>
+	 <input type="radio" name="gender" value="male" />Male
+	 <input type="radio" name="gender" value="female" />Female<br><br>
+	 <input type="submit" id="sub" name="sub"/>
+	</fieldset>
+</body>
+</html>
